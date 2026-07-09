@@ -3,4 +3,17 @@ if SHIELD_FIRSTSPLIT70_LEFT
 config ZMK_KEYBOARD_NAME
 	default "FirstSplit70"
 
+config ZMK_SPLIT_ROLE_CENTRAL
+	default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+	default 1
+
+endif
+
+if SHIELD_FIRSTSPLIT70_LEFT || SHIELD_FIRSTSPLIT70_RIGHT
+
+config ZMK_SPLIT
+	default y
+
 endif
