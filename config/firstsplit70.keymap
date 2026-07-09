@@ -21,7 +21,7 @@
 				&kp LSHIFT &kp Z      &kp X      &kp C      &kp V      &kp B               &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp BSLH   &kp RSHIFT
 
 				// 行4: LCTL LGUI LALT (empty)(empty) SPACE | GAP | SPACE (empty)(empty)(empty) LALT APP RCTL
-				&kp LCTRL  &kp LGUI   &kp LALT   &none      &none      &kp SPACE           &kp SPACE  &none      &none      &none      &kp LALT   &kp APP    &kp RCTRL
+				&kp LCTRL  &kp LGUI   &kp LALT   &none      &none      &kp SPACE           &kp SPACE  &none      &none      &none      &kp LALT   &kp K_APP  &kp RCTRL
 			>;
 		};
 	};

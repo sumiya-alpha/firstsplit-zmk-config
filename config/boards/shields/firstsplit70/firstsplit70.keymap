@@ -12,16 +12,16 @@
 				&kp ESC    &kp N1     &kp N2     &kp N3     &kp N4     &kp N5              &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS  &kp BSPC
 
 				// 行1: TAB Q W E R T | GAP | Y U I O P @ [
-				&kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T               &kp Y      &kp U      &kp I      &kp O      &kp P      &kp AT     &kp LBKT
+				&kp TAB    &kp Q      &kp W      &kp E      &kp R      &kp T               &kp Y      &kp U      &kp I      &kp O      &kp P      &kp LS(N2) &kp LBKT
 
 				// 行2: CAPS A S D F G | GAP | H J K L ; : ENTER
-				&kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G               &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp COLON  &kp RET
+				&kp CAPS   &kp A      &kp S      &kp D      &kp F      &kp G               &kp H      &kp J      &kp K      &kp L      &kp SEMI   &kp LS(SEMI) &kp RET
 
 				// 行3: LSHIFT Z X C V B | GAP | N M , . / \ RSHIFT
 				&kp LSHIFT &kp Z      &kp X      &kp C      &kp V      &kp B               &kp N      &kp M      &kp COMMA  &kp DOT    &kp FSLH   &kp BSLH   &kp RSHIFT
 
 				// 行4: LCTL LGUI LALT (empty)(empty) SPACE | GAP | SPACE (empty)(empty)(empty) LALT APP RCTL
-				&kp LCTRL  &kp LGUI   &kp LALT   &none      &none      &kp SPACE           &kp SPACE  &none      &none      &none      &kp LALT   &kp APP    &kp RCTRL
+				&kp LCTRL  &kp LGUI   &kp LALT   &none      &none      &kp SPACE           &kp SPACE  &none      &none      &none      &kp LALT   &kp K_APP  &kp RCTRL
 			>;
 		};
 	};
