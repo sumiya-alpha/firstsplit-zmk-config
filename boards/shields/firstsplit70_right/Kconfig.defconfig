@@ -1,0 +1,9 @@
+if SHIELD_FIRSTSPLIT70_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "FirstSplit70"
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+	default 1
+
+endif

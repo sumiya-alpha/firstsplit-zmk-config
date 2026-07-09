@@ -1,0 +1,2 @@
+config SHIELD_FIRSTSPLIT70_LEFT
+	def_bool $(shields_list_contains,firstsplit70_left)

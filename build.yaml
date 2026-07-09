@@ -18,3 +18,10 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: xiao_ble
+    shield: firstsplit70_left
+    artifact-name: firstsplit70_left
+  - board: xiao_ble
+    shield: firstsplit70_right
+    artifact-name: firstsplit70_right
